@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(71, 192, 37);
+}
+
+#deleteitems{
+    width: 52px;
+}
+
+h3{
+    margin-left: 10px;
+}
+.buttons{
+    margin-top: 13px;
+    margin-left: 10px;
+   
+}
+button{
+    margin-right: 4px;
+    width: 22px;
+    border-radius: 5px;
+}
+#clear{
+   width: 112px; 
+}
+
+#consolemessage{
+    height: 100px;
+}

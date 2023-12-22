@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+</head>
+<body>
+    <h3>* Calculator</h3>
+    
+    <div class="buttons">
+        <button onclick="enternumber(1);">1</button>
+        <button onclick="enternumber(2);">2</button>
+        <button onclick="enternumber(3);">3</button>
+        <button onclick="clickOperator(' + ');">+</button>
+    </div>
+    <div class="buttons">
+        <button onclick="enternumber(4);">4</button>
+        <button onclick="enternumber(5);">5</button>
+        <button onclick="enternumber(6);">6</button>
+        <button onclick="clickOperator(' - ');">-</button>
+    </div>
+    <div class="buttons">
+        <button onclick="enternumber(7);">7</button>
+        <button onclick="enternumber(8);">8</button>
+        <button onclick="enternumber(9);">9</button>
+        <button onclick="clickOperator(' * ');">*</button>
+    </div>
+    <div class="buttons">
+        <button onclick="enternumber('.');">.</button>
+        <button onclick="enternumber(0);">0</button>
+        <button onclick="equals();" >=</button>
+        <button onclick="clickOperator(' / ');">/</button>
+    </div>
+    <div class="buttons">
+        <button id="deleteitems" onclick="Delete();">delete</button>
+        <button onclick="enternumber('(')">(</button>
+        <button onclick="enternumber(')')">)</button>
+    </div>
+    <div class="buttons">
+        <button id="clear"  onclick="clearthe();">Clear all</button>
+    </div>
+    
+    <div class="console">
+        <p>OutPut: </p>
+        <div id="consoleMessages"></div>
+        <div id="consoleMessages2"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
